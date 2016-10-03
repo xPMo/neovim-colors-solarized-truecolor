@@ -2,7 +2,7 @@ This is a version of https://github.com/altercation/vim-colors-solarized
 modified to always use true color (24 bit rgb). This means it will work with
 neovim with the following:
 
-    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+    set termguicolors
     set background=light " or dark
     colorscheme solarized
 
