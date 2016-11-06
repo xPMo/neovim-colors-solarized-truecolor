@@ -9,3 +9,5 @@ neovim with the following:
 Normally this wouldn't work with neovim (as of writing) since `gui_running` is always false during initialisation.
 
 For more info see the original.
+
+All above + it fixes the SignColumn issue referenced here: https://github.com/neomake/neomake/issues/6
