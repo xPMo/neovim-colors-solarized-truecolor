@@ -530,7 +530,7 @@ exe "hi! DiffChange"     .s:fmt_bold   .s:fg_yellow .s:bg_base02 .s:sp_yellow
 exe "hi! DiffDelete"     .s:fmt_bold   .s:fg_red    .s:bg_base02
 exe "hi! DiffText"       .s:fmt_bold   .s:fg_blue   .s:bg_base02 .s:sp_blue
 endif
-exe "hi! SignColumn"     .s:fmt_none   .s:fg_base0  .s:bg_base02  .s:sp_base0
+hi! link SignColumn LineNr
 exe "hi! Conceal"        .s:fmt_none   .s:fg_blue   .s:bg_none
 exe "hi! SpellBad"       .s:fmt_curl   .s:fg_none   .s:bg_none    .s:sp_red
 exe "hi! SpellCap"       .s:fmt_curl   .s:fg_none   .s:bg_none    .s:sp_violet
