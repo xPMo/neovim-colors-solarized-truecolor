@@ -155,7 +155,7 @@ let s:options_list=[
 let s:colorscheme_list=[
             \'syntax enable',
             \'set background='.&background,
-            \'colorscheme solarized',
+            \'colorscheme solarized-truecolor',
             \]
 let s:defaults_list=[
             \'" ------------------------------------------------------------------',
